@@ -52,6 +52,6 @@ Use Vercel for a quick React/Vite deployment.
 1. Go to [netlify.com](https://netlify.com) and sign up using your GitHub account.
 2. Click **Add New... -> Project**.
 3. Select your portfolio repository and click **Import**.
-4.. Click **Deploy**.
+4. Click **Deploy**.
 
 Netlify will pull the code from GitHub, run `npm install` and `npm run build`, and provide a live HTTPS URL.

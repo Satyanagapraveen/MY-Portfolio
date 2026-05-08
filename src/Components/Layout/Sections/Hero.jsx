@@ -36,12 +36,19 @@ export default function Hero() {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4">
-          <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors shadow-lg cursor-pointer">
-            View My Work
-          </button>
-          <button className="bg-white text-gray-800 border border-gray-200 px-8 py-3 rounded-full font-semibold hover:bg-gray-50 transition-colors shadow-sm cursor-pointer">
-            Contact Me
-          </button>
+            <a 
+                href="#projects"
+                className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors shadow-lg cursor-pointer text-center"
+            >
+                View My Work
+            </a>
+            <a 
+                href="/Praveen_backend_resume.pdf"
+                download="Namburi_Praveen_Resume.pdf"
+                className="bg-white text-gray-800 border border-gray-200 px-8 py-3 rounded-full font-semibold hover:bg-gray-50 transition-colors shadow-sm cursor-pointer text-center"
+            >
+                Download Resume
+            </a>
         </div>
       </motion.div>
 

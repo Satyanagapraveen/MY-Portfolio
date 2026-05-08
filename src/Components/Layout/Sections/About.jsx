@@ -26,7 +26,7 @@ export default function About() {
           >
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl shadow-lg border-4 border-white overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=800" 
+                src="/profile-picture.jpeg" 
                 alt="Namburi Praveen - Software Engineer" 
                 className="w-full h-full object-cover"
                 loading='lazy'

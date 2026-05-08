@@ -5,13 +5,12 @@ export default function Navbar() {
         <h1 className="text-2xl font-bold text-gray-800 tracking-tight">
           Praveen<span className="text-blue-600">.</span>
         </h1>
-        
         <ul className="hidden md:flex space-x-8 text-gray-600 font-medium">
-          <li className="hover:text-blue-600 transition-colors cursor-pointer">About</li>
-          <li className="hover:text-blue-600 transition-colors cursor-pointer">Skills</li>
-          <li className="hover:text-blue-600 transition-colors cursor-pointer">Projects</li>
-          <li className="hover:text-blue-600 transition-colors cursor-pointer">Contact</li>
-        </ul>
+  <li><a href="#about" className="hover:text-blue-600 transition-colors cursor-pointer">About</a></li>
+  <li><a href="#skills" className="hover:text-blue-600 transition-colors cursor-pointer">Skills</a></li>
+  <li><a href="#projects" className="hover:text-blue-600 transition-colors cursor-pointer">Projects</a></li>
+  <li><a href="#contact" className="hover:text-blue-600 transition-colors cursor-pointer">Contact</a></li>
+</ul>
       </div>
     </nav>
   );
