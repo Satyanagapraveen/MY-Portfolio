@@ -1,20 +1,45 @@
+import { motion } from 'framer-motion';
+
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-white px-4">
+    <section id="about" className="py-20 bg-white px-4 overflow-hidden">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">About Me</h2>
+        
+        <motion.h2 
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
+          className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center"
+        >
+          About Me
+        </motion.h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           
-         <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl shadow-lg border-4 border-white overflow-hidden">
-            <img 
-              src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=800" 
-              alt="Namburi Praveen - Software Engineer" 
-              className="w-full h-full object-cover"
-            />
-          </div>
+          <motion.div 
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="flex justify-center"
+          >
+            <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl shadow-lg border-4 border-white overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=800" 
+                alt="Namburi Praveen - Software Engineer" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </motion.div>
           
-          <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
+          <motion.div 
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="space-y-6 text-lg text-gray-600 leading-relaxed"
+          >
             <p>
               I am a third-year B.Tech student specializing in Software Engineering and Full-Stack Development. I have a deep passion for building robust web applications from the ground up, seamlessly connecting intuitive user interfaces with powerful backend architectures.
             </p>
@@ -24,7 +49,7 @@ export default function About() {
             <p>
               When I'm not coding, participating in hackathons, or brainstorming zero-investment business ideas with my team, you can usually find me keeping up with the latest in Telugu cinema.
             </p>
-          </div>
+          </motion.div>
           
         </div>
       </div>
