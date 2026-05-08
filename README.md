@@ -13,7 +13,7 @@ A fully responsive, animated personal portfolio designed to showcase engineering
 
 ## Live Demo
 
-[Live Portfolio](https://69fda9f080687bd90eb32e86--praveen-namburi-portfolio.netlify.app/)
+[Live Portfolio](https://praveen-namburi-portfolio.netlify.app/)
 
 ## Local Setup Instructions
 
