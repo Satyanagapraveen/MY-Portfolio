@@ -15,9 +15,9 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full bg-white/95 backdrop-blur shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-gray-800 tracking-tight">
+        <a href="#hero" className="text-2xl font-bold text-gray-800 tracking-tight">
           Praveen<span className="text-blue-600">.</span>
-        </h1>
+        </a>
 
         {/* Desktop nav */}
         <ul className="hidden md:flex space-x-8 text-gray-600 font-medium">

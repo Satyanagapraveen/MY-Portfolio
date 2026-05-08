@@ -10,7 +10,7 @@ export default function Hero() {
   const opacity = useTransform(scrollY, [0, 300], [1, 0]);
 
   return (
-    <section className="relative min-h-screen flex flex-col justify-center items-center text-center px-4 overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex flex-col justify-center items-center text-center px-4 overflow-hidden">
       
       {/* Background Decorative Element (Parallax) */}
       <motion.div 

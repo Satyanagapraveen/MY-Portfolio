@@ -13,7 +13,7 @@ A fully responsive, animated personal portfolio designed to showcase engineering
 
 ## Live Demo
 
-[Live Portfolio](https://69fda9f080687bd90eb32e86--praveen-namburi-portfolio.netlify.app/)
+[Live Portfolio](https://praveen-namburi-portfolio.netlify.app/)
 
 ## Local Setup Instructions
 
@@ -47,7 +47,7 @@ Make sure to update the GitHub URL in step 1 before using it.
 
 ## Live Deployment via Netlify
 
-Use Vercel for a quick React/Vite deployment.
+Use Netlify for a quick React/Vite deployment.
 
 1. Go to [netlify.com](https://netlify.com) and sign up using your GitHub account.
 2. Click **Add New... -> Project**.
