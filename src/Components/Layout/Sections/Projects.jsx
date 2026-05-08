@@ -40,9 +40,6 @@ export default function Projects() {
                   <a href={project.githubLink} className="text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors cursor-pointer">
                     GitHub Repo →
                   </a>
-                  <a href={project.liveLink} className="text-sm font-semibold text-gray-600 hover:text-gray-900 transition-colors cursor-pointer">
-                    Live Demo →
-                  </a>
                 </div>
               </div>
               
