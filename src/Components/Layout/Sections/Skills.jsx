@@ -1,20 +1,58 @@
+import { motion } from 'framer-motion';
 import { skillsData } from '../../../data/skillsData';
+
+// 1. Define the Commander (Container)
+const containerVariants = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.2
+    }
+  }
+};
+
+// 2. Define the Soldiers (Individual Cards)
+const cardVariants = {
+  hidden: { opacity: 0, y: 30 },
+  show: { 
+    opacity: 1, 
+    y: 0,
+    transition: { duration: 0.5, ease: "easeOut" }
+  }
+};
 
 export default function Skills() {
   return (
     <section id="skills" className="py-20 bg-gray-50 px-4">
       <div className="max-w-7xl mx-auto">
         
-        <div className="text-center mb-16">
+        <motion.div 
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.5 }}
+          className="text-center mb-16"
+        >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Technical Stack</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             The tools, frameworks, and architectural patterns I use to build scalable applications.
           </p>
-        </div>
+        </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <motion.div 
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, margin: "-100px" }}
+          className="grid grid-cols-1 md:grid-cols-3 gap-8"
+        >
           {skillsData.map((skillGroup, index) => (
-            <div key={index} className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+            <motion.div 
+              key={index} 
+              variants={cardVariants}
+              className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
+            >
               <h3 className="text-xl font-bold text-gray-800 mb-6 border-b pb-4">
                 {skillGroup.category}
               </h3>
@@ -29,9 +67,9 @@ export default function Skills() {
                   </span>
                 ))}
               </div>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
         
       </div>
     </section>
