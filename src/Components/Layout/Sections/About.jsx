@@ -6,10 +6,12 @@ export default function About() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           
-          <div className="flex justify-center">
-            <div className="w-64 h-64 md:w-80 md:h-80 bg-gray-200 rounded-2xl shadow-lg border-4 border-white flex items-center justify-center overflow-hidden">
-              <span className="text-gray-400">Photo Placeholder</span>
-            </div>
+         <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl shadow-lg border-4 border-white overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=800" 
+              alt="Namburi Praveen - Software Engineer" 
+              className="w-full h-full object-cover"
+            />
           </div>
           
           <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
