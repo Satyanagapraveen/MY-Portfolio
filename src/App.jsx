@@ -2,7 +2,7 @@ import Navbar from './Components/Layout/Navbar';
 import Hero from './Components/Layout/Sections/Hero';
 import About from './Components/Layout/Sections/About';
 import Skills from './Components/Layout/Sections/Skills';
-
+import Projects from './Components/Layout/Sections/Projects'
 
 
 export default function App() {
@@ -14,6 +14,7 @@ export default function App() {
         <Hero />
         <About />
         <Skills/>
+        <Projects/>
       </main>
       
     </div>
