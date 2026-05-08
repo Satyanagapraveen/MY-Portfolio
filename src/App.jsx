@@ -4,7 +4,7 @@ import About from './Components/Layout/Sections/About';
 import Skills from './Components/Layout/Sections/Skills';
 import Projects from './Components/Layout/Sections/Projects'
 import Contact from './Components/Layout/Sections/Contact';
-
+import Footer from './Components/Layout/Sections/Footer';
 export default function App() {
   return (
     <div className="min-h-screen bg-gray-50 pt-20">
@@ -17,7 +17,7 @@ export default function App() {
         <Projects/>
         <Contact/>
       </main>
-      
+      <Footer />
     </div>
   );
 }

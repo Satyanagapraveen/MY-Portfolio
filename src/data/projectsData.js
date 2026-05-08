@@ -10,7 +10,7 @@ export const projectsData = [
     title: "Multimodal RAG System for Document and Image Analysis",
     description: "An advanced retrieval-augmented generation system utilizing CLIP and ChromaDB to process and query complex multimodal datasets effectively.",
     techStack: ["Gemini", "ChromaDB", "CLIP", "Python"],
-    githubLink: "https://github.com/Satyanagapraveen/multitenant-saas-platform-23A91A12A5",
+    githubLink: "https://github.com/Satyanagapraveen/Multimodal-RAG-System-for-Document-and-Image-Analysis",
     liveLink: "#"
   },
   {

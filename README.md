@@ -9,11 +9,11 @@ A fully responsive, animated personal portfolio designed to showcase engineering
 - Frontend: React + Vite
 - Styling: Tailwind CSS v4
 - Animation: Framer Motion
-- Deployment: Vercel
+- Deployment: Netlify
 
 ## Live Demo
 
-[https://69fda9f080687bd90eb32e86--praveen-namburi-portfolio.netlify.app/]
+[Live Portfolio](https://69fda9f080687bd90eb32e86--praveen-namburi-portfolio.netlify.app/)
 
 ## Local Setup Instructions
 
