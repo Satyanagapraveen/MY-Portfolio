@@ -1,6 +1,8 @@
 import Navbar from './Components/Layout/Navbar';
 import Hero from './Components/Layout/Sections/Hero';
 import About from './Components/Layout/Sections/About';
+import Skills from './Components/Layout/Sections/Skills';
+
 
 
 export default function App() {
@@ -11,6 +13,7 @@ export default function App() {
       <main>
         <Hero />
         <About />
+        <Skills/>
       </main>
       
     </div>
