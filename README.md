@@ -1,16 +1,58 @@
-# React + Vite
+# Namburi Praveen - Software Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+A fully responsive, animated personal portfolio designed to showcase engineering projects, skills, and background. Built from scratch with a focus on performance, accessibility, and clean component architecture.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+- Frontend: React + Vite
+- Styling: Tailwind CSS v4
+- Animation: Framer Motion
+- Deployment: Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Live Demo
 
-## Expanding the ESLint configuration
+[Insert Live Vercel URL Here](https://vercel.com)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Local Setup Instructions
+
+Follow these steps to run the project locally:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/portfolio-2026.git
+   ```
+
+2. Navigate into the project directory:
+
+   ```bash
+   cd MY_Portfolio
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+Make sure to update the GitHub URL in step 1 before using it.
+
+## Live Deployment via Vercel
+
+Use Vercel for a quick React/Vite deployment.
+
+1. Go to [vercel.com](https://vercel.com) and sign up using your GitHub account.
+2. Click **Add New... -> Project**.
+3. Select your portfolio repository and click **Import**.
+4. Confirm that Vercel detects the project as **Vite**.
+5. Click **Deploy**.
+
+Vercel will pull the code from GitHub, run `npm install` and `npm run build`, and provide a live HTTPS URL.

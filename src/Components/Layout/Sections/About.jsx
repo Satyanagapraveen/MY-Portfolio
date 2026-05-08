@@ -29,6 +29,7 @@ export default function About() {
                 src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=800" 
                 alt="Namburi Praveen - Software Engineer" 
                 className="w-full h-full object-cover"
+                loading='lazy'
               />
             </div>
           </motion.div>
